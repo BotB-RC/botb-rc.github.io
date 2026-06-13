@@ -1,6 +1,6 @@
 (async function () {
   const urlParams = new URLSearchParams(window.location.search);
-  const target = urlParams.get("target");
+  const target = urlParams.get("t");
   const messageBox = document.getElementById('messageBox');
 
   function updateMessage(title, message, isError = false) {
